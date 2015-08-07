@@ -1,5 +1,6 @@
 require('rspec')
 require('word_count')
+# require('pry')
 
 describe('String#word_count') do
   it('changes entered text to all lowercase') do
