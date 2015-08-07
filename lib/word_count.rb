@@ -1,5 +1,5 @@
 class String
   define_method(:word_count) do
-    # code here
+    self.split()
   end
 end
