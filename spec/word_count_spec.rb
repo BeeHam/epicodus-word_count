@@ -7,6 +7,6 @@ describe('String#word_count') do
   end
 
   it('checks to see if a given word is in the array') do
-    expect(('hello world').word_count()).to(eq(true))
+    expect('hello world'.word_count('hello')).to(eq('hello'))
   end
 end
